@@ -88,7 +88,7 @@ multiply(1,2)  #returns 2
 '''
 ## square(x)
 
-The function is used when calculating the square of a number (multiplying it by itself). It relies on the `multiply` function internally.
+The function is used when calculating the square of a number (multiplying it by itself). It relies on the `multiply` function internally
 
 **When it might break:**
 If `x` is a non-numeric type (e.g. strings, lists), it will raise a `TypeError` — since it depends on `multiply`, it inherits the same failure cases.
